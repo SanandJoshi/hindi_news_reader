@@ -23,7 +23,7 @@ def get_gemini_response(image_parts, prompt):
     return response.text
 
 # --- Main Flask App ---
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', static_url_path='/static')
 
 @app.route('/')
 def index():
