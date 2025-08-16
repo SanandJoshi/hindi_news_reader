@@ -1,0 +1,16 @@
+{
+    "name": "AI हिन्दी समाचार वाचक",
+    "short_name": "AI समाचार",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fef2f2",
+    "theme_color": "#dc2626",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "https://cdn-icons-png.flaticon.com/512/1077/1077278.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
